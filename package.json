@@ -1,6 +1,6 @@
 {
   "name": "@gapi/cloud",
-  "version": "0.7.120",
+  "version": "0.7.121",
   "description": "",
   "main": "index.js",
   "scripts": {
