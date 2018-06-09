@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postpublish": "git push ssh://git@gitlab.youvolio.com:522/gapi/cloud.git && git push --tags && git push ssh://git@gitlab.youvolio.com:522/gapi/cloud.git --tags",
+    "postpublish": "git push -f ssh://git@gitlab.youvolio.com:522/gapi/cloud.git && git push --tags && git push ssh://git@gitlab.youvolio.com:522/gapi/cloud.git --tags",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
